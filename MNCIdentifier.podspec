@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "MNCIdentifier"
-  spec.version      = "0.1.0"
+  spec.version      = "0.0.1"
   spec.summary      = "A short description of MNCIdentifier."
 
   
