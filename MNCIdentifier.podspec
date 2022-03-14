@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "MNCIdentifier"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "A short description of MNCIdentifier."
 
   
@@ -21,8 +21,7 @@ Pod::Spec.new do |spec|
   
 
   spec.subspec 'Face' do |face|
-    face.public_header_files = "Face/Face.framework/Headers/*.h"
-    face.source_files = "Face/Face.framework/Headers/*.h"
+    face.source_files = "Face/Face"
     face.header_dir = "Face"
   end
 
