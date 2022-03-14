@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "MNCIdentifier"
-  spec.version      = "0.0.7"
+  spec.version      = "0.1.1"
   spec.summary      = "A short description of MNCIdentifier."
 
   
@@ -17,10 +17,9 @@ Pod::Spec.new do |spec|
 
   spec.framework  = "UIKit"
   
+  spec.default_subspec = 'Face'
 
   spec.subspec 'Face' do |face|
-    # face.source_files = "Face/Face/**/*.{h,m,swift}"
-    # face.public_header_files = "Face/Face/*.{h}"
     face.vendored_frameworks = "Face/Face.framework"
     face.dependency 'GoogleMLKit/FaceDetection', '2.3.0'
   end
