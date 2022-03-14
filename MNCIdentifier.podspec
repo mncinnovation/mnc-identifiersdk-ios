@@ -15,6 +15,8 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/mncinnovation/mnc-identifier-ios.git", :tag => "#{spec.version}" }
 
+  spec.source_files = "Face.framework/Headers/*.h"
+
   spec.framework  = "UIKit"
 
   spec.dependency 'GoogleMLKit/FaceDetection', '2.3.0'
