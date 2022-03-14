@@ -23,6 +23,7 @@ Pod::Spec.new do |spec|
   spec.subspec 'Face' do |face|
     face.public_header_files = "Face.framework/Headers/*.h"
     face.source_files = "Face.framework/Headers/*.h"
+    face.header_dir = "Face"
   end
 
   spec.pod_target_xcconfig = {
