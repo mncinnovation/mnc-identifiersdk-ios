@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "MNCIdentifier"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A short description of MNCIdentifier."
 
   
@@ -19,6 +19,12 @@ Pod::Spec.new do |spec|
 
   spec.dependency 'GoogleMLKit/FaceDetection', '2.3.0'
   
+
+  spec.subspec 'Face' do |face|
+    face.public_header_files = "Face/Face.framework/Headers/*.h"
+    face.source_files = "Face/Face.framework/Headers/*.h"
+    face.header_dir = "Face"
+  end
 
   spec.pod_target_xcconfig = {
      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
