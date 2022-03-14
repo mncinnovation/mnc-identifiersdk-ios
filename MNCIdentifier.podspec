@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/mncinnovation/mnc-identifier-ios.git", :tag => "#{spec.version}" }
 
-  spec.source_files = "Face.framework"
+  spec.exclude_files = "Face.framework"
 
   spec.framework  = "UIKit"
 
