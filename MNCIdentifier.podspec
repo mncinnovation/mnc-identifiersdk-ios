@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "MNCIdentifier"
-  spec.version      = "0.1.3"
+  spec.version      = "0.1.4"
   spec.summary      = "iOS SDK platforms for KYC verification services."
   
   spec.description  = "This KYC SDK involves steps to establish customer identity thorough liveness detection."
@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
   spec.default_subspec = 'Face'
 
   spec.subspec 'Face' do |face|
-    face.vendored_frameworks = "Face/Face.framework"
+    face.vendored_frameworks = "Face.framework"
     face.dependency 'GoogleMLKit/FaceDetection', '2.3.0'
   end
 
