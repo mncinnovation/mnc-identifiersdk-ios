@@ -4,7 +4,7 @@ MNC Identifier is a service to identify, and verify consumer with AI in it. This
 - Face Identifier (0.1.4)
 - OCR Identifier (*Under development*)
 
-![Alt Text](https://i.imgur.com/9tCxy7Z.gif)
+![Alt Text](https://i.imgur.com/9oexWKl.gif)
 
 ## Installation
 add this to your podfile
