@@ -21,12 +21,12 @@ Pod::Spec.new do |spec|
   
   spec.default_subspec = 'Face'
 
-  spec.subspec 'Face' do |face|
+  subspec 'Face' do |face|
     face.vendored_frameworks = "Face.framework"
     face.dependency 'GoogleMLKit/FaceDetection', '2.3.0'
   end
 
-  spec.subspec 'OCR' do |ocr|
+  subspec 'OCR' do |ocr|
     ocr.vendored_frameworks = "OCR.framework"
     ocr.dependency 'GoogleMLKit/TextRecognition', '2.3.0'
     ocr.dependency 'GoogleMLKit/ObjectDetection', '2.3.0'
