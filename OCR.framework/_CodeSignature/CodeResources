@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		Q4p4vO/KcKiddGW+5so+5soB30w=
+		</data>
 		<key>Assets.car</key>
 		<data>
-		cMN9l/c5Y+/Sr3vjhzcedITMeOQ=
+		VFubv4eQjslmGOKUjXznqecEB5M=
 		</data>
 		<key>Headers/DismissDelegate.h</key>
 		<data>
@@ -22,7 +26,7 @@
 		</data>
 		<key>Headers/OCRClient.h</key>
 		<data>
-		zOBLWHA5rPOAXs2Pa3RpZvVUBgo=
+		RVEaflVx+IgOWY5c3yEYv1iqRXI=
 		</data>
 		<key>Headers/OCRDelegate.h</key>
 		<data>
@@ -36,9 +40,13 @@
 		<data>
 		bdiGwet7X02D25vTy++2V7ElZcI=
 		</data>
+		<key>Headers/SplashScreenViewController.h</key>
+		<data>
+		HEjhFyu5GMWjF7GQxyw9vXR2a2w=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		BgbVDbrxSK/dde1a9pu082kbsN0=
+		3xaQZ80Wd2VezPGRPwgUfhI3TtY=
 		</data>
 		<key>LatinOCRResources.bundle/Info.plist</key>
 		<data>
@@ -111,7 +119,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qUiDlqghquym20NXT8vY6Npx+L/bknC7I7nuzgTS/So=
+			ENMvu05ETJGcdRKmdk5zzpBytcGp0GmeFwRiSqcqngk=
 			</data>
 		</dict>
 		<key>Headers/DismissDelegate.h</key>
@@ -139,7 +147,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ueW7V45F3ysFHc/Ml7ciHW7TTg3OoTEaz/d7d9UIbas=
+			qEFfJRwEVHhH21cEwErJBVbM8VtEmzvK9ZruXWjRprk=
 			</data>
 		</dict>
 		<key>Headers/OCRDelegate.h</key>
@@ -161,6 +169,13 @@
 			<key>hash2</key>
 			<data>
 			WzJRiMfqgsbKV7b/fGiy0wSvO0Z9RId45ApzDF/+0Y4=
+			</data>
+		</dict>
+		<key>Headers/SplashScreenViewController.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kWlf0HcX/Z7lzj8QY9+pCJY6nFstMtdNj0COlvaTZUg=
 			</data>
 		</dict>
 		<key>LatinOCRResources.bundle/Info.plist</key>

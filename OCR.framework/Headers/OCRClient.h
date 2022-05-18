@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "OCRIdentifierViewController.h"
+#import "SplashScreenViewController.h"
 #import "OCRDelegate.h"
 
 NS_ASSUME_NONNULL_BEGIN
