@@ -15,10 +15,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface FaceClient : NSObject
 
-@property(nonatomic, weak)id <FaceIdentifierDelegate> delegate;
-@property(nonatomic, weak) FaceSettingModel *setting;
+@property (nonatomic, weak) id <FaceIdentifierDelegate> delegate;
+@property (nonatomic, weak) FaceSettingModel *setting;
 
-- (void)showFaceIdentifier:(UIViewController*)parent;
+- (void)showFaceIdentifier:(UIViewController *)parent;
 
 @end
 

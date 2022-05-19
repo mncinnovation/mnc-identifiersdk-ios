@@ -13,8 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface SplashViewController : UIViewController
 
-@property(nonatomic, weak)id <FaceIdentifierDelegate> delegate;
-@property(nonatomic, weak) FaceSettingModel *setting;
+@property (nonatomic, weak) id <FaceIdentifierDelegate> delegate;
+@property (nonatomic, weak) FaceSettingModel *setting;
 
 @end
 

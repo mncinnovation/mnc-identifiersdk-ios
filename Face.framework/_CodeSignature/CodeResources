@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		3PM7yPZi+qjsSKRamSkqPz6Hx9Y=
+		RPlOrdBsz4BHp7Yl5VfHS6/JruA=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/Info.plist</key>
 		<data>
-		Xf0kHXXI+wU7Y+QP2QJMWy171ic=
+		76VtNFkjH9UWEG09qBHiBtw+N5c=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
 		<data>
@@ -66,27 +66,27 @@
 		</data>
 		<key>Headers/FaceClient.h</key>
 		<data>
-		K1ZK6Cl5OF8+xKaMJ9k21cTHWtk=
+		ahhpIP8HEvX30M9Q5M22AjqUT8M=
 		</data>
 		<key>Headers/FaceIdentifierDelegate.h</key>
 		<data>
-		58zmpJw9JHa4Zp5MAVnlvy1A+po=
+		ngBev4ZfsgaDFonQn5gH8HGwbHw=
 		</data>
 		<key>Headers/FaceResultModel.h</key>
 		<data>
-		tXIdcqHtQWS4/E+o3ns1b8bBc9E=
+		bXvqK56DDbOdVam3xrwqpW9n+hA=
 		</data>
 		<key>Headers/FaceSettingModel.h</key>
 		<data>
-		K4doTtmmnE55jNlYtfq8HrNqYJk=
+		Up44LpalQhL7KhKgPniq0syWOTc=
 		</data>
 		<key>Headers/SplashViewController.h</key>
 		<data>
-		wMi+ucjgypVQgS8rA3jF8sC3M08=
+		DPqHJE5JFvtwCKWp73rF2XyDZZE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3ANAe5Wa3FqSvYrhL9o3RC9Y4WY=
+		518UmS3k01XlaDgDpRylu2/8IGg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -99,7 +99,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZD2095qFmjSy9Wlc4RD/yAzdgZ1/VB68WAM45bZCElQ=
+			ah0a0fRvtEN36Wph5m7bnDrf6CtlXEBNs3jmOExBd30=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
@@ -127,7 +127,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			shbegwIhNb1SV7143BszWKB0XF44NpcdYjaAiRuLsEY=
+			pAD0ick7hLIDkvpIIX1dKnlOu+yWLRYlOo71V0+8Zgw=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
@@ -204,35 +204,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KGsNQgaT8xvzLXFPK2fUcYz3U9EjgKajyLVDTz3tajM=
+			tdsuB6kaxPEvXlOlR31ztPUAS75Ylt3rggFj+EJChbc=
 			</data>
 		</dict>
 		<key>Headers/FaceIdentifierDelegate.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SuEJsO43AEVLR677DgwrJnfWZ+Uu/bur79A/lY0q3w8=
+			G9TBiffAg6QwKE1Elj1us0mu24CSVefL00Epnj2529E=
 			</data>
 		</dict>
 		<key>Headers/FaceResultModel.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			79FALaxPmgWCVSciTR2OvybAjNgLL9MqHlqQt++m9J8=
+			VPV/nLYnRbxUWy/Fcr+O/V3gVtkDllBDzY9sFfeNNq8=
 			</data>
 		</dict>
 		<key>Headers/FaceSettingModel.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b3unO9EdG+nYi4xn6Nm/jvRV5Gb7YKBf3Uzit5ENsFk=
+			TP3Nm/vI8dh+txMeZzQNQxc32sJihVaGtbvcqnPVgUM=
 			</data>
 		</dict>
 		<key>Headers/SplashViewController.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4YfG9DnvnsvoIPRj4YkWLBovkyeJHzki1asdP8ZuWFw=
+			jaQkgHC/AU9N0ekcp0KoRIC8GONnz+2ljTJV/gD2/uw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -14,9 +14,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface OCRClient : NSObject
 
-@property(nonatomic, weak)id <OCRDelegate> delegate;
+@property(nonatomic, weak) id <OCRDelegate> delegate;
 
-- (void)showOCRIdentifier:(UIViewController*)parent;
+- (void)showOCRIdentifier:(UIViewController *)parent;
 
 @end
 

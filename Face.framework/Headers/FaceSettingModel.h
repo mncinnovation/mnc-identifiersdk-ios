@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface FaceSettingModel : NSObject
-@property(nonatomic) BOOL isDebugMode;
+@property (nonatomic) BOOL isDebugMode;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -11,7 +11,7 @@
 
 @protocol FaceIdentifierDelegate <NSObject>
 
-- (void) faceIdentifierResult:(FaceResultModel*)result;
+- (void)faceIdentifierResult:(FaceResultModel *)result;
 
 @end
 

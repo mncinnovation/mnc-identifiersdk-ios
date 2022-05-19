@@ -11,10 +11,10 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface FaceResultModel : NSObject
-@property(nonatomic) UIImage *faceInFrame;
-@property(nonatomic) UIImage *faceBlink;
-@property(nonatomic) UIImage *faceLookLeftOrRight;
-@property(nonatomic) UIImage *faceSmile;
+@property (nonatomic) NSString *faceInFrame;
+@property (nonatomic) NSString *faceBlink;
+@property (nonatomic) NSString *faceLookLeftOrRight;
+@property (nonatomic) NSString *faceSmile;
 
 @end
 
