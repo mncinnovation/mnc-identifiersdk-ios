@@ -11,11 +11,11 @@ add this to your podfile
 
 ```ruby
 #This is for Face Identifier
- pod 'MNCIdentifier/Face', '0.2.0'
+ pod 'MNCIdentifier/Face', '1.0.0'
  pod 'GoogleMLKit/FaceDetection', '2.3.0'
 
 #This is for OCR Identifier
- pod 'MNCIdentifier/OCR', '0.2.0'
+ pod 'MNCIdentifier/OCR', '1.0.0'
  pod 'GoogleMLKit/TextRecognition', '2.3.0'
  pod 'GoogleMLKit/ObjectDetection', '2.3.0'
 
@@ -24,27 +24,23 @@ add this to your podfile
 ## Face Identifier Usage
 In Objective-C
 ```objectivec
-#import <Face/FaceClient.h>
-#import <Face/FaceSettingModel.h>
-#import <Face/FaceIdentifierDelegate.h>
+#import <MNCFaceIdentifier/MNCFaceIdentifierClient.h>
+#import <MNCFaceIdentifier/MNCFaceIdentifierDelegate.h>
 
-@interface ViewController() <FaceIdentifierDelegate>
+@interface ViewController() <MNCFaceIdentifierDelegate>
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     .......
-    FaceClient client = [FaceClient new];
-    FaceSettingModel *setting = [FaceSettingModel new];
-    setting.isDebugMode = NO;
-    
+    MNCFaceIdentifierClient client = [MNCFaceIdentifierClient new];
     client.delegate = self;
-    client.setting = setting;
+    
     [client showFaceIdentifier:self];
 }
 
-- (void)faceIdentifierResult:(FaceResultModel *)result {
+- (void)faceIdentifierResult:(MNCFaceIdentifierResult *)result {
     //this function return data result from Face Identifier
     //this function return captured image from process face identifier with type data UIImage
 }
@@ -54,23 +50,19 @@ In Objective-C
 
 In Swift
 ```swift
-import Face
+import MNCFaceIdentifier
 
-class ViewController: UIViewController, FaceIdentifierDelegate {
+class ViewController: UIViewController, MNCFaceIdentifierDelegate {
 
    override func viewDidLoad() {
         .......
-        let client = FaceClient()
-        let setting = FaceSettingModel()
-        setting.isDebugMode = false
-        
+        let client = MNCFaceIdentifierClient()
         client.delegate = self
-        client.setting = setting
         
         client.showFaceIdentifier(self)
   }
 
-  func faceIdentifierResult(_ result: FaceResultModel!) {
+  func faceIdentifierResult(_ result: MNCFaceIdentifierResult!) {
         //this function return data result from Face Identifier
         //this function return captured image from process face identifier with type data UIImage
   }
@@ -80,22 +72,23 @@ class ViewController: UIViewController, FaceIdentifierDelegate {
 ## OCR Usage
 In Objective-C
 ```objectivec
-#import <OCR/OCRClient.h>
-#import <OCR/OCRDelegate.h>
+#import <MNCOCRIdentifier/MNCOCRIdentifierClient.h>
+#import <MNCOCRIdentifier/MNCOCRIdentifierDelegate.h>
 
-@interface ViewController() <OCRDelegate>
+@interface ViewController() <MNCOCRIdentifierDelegate>
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     .......
-    OCRClient client = [OCRClient new];
+    MNCOCRIdentifierClient *client = [MNCOCRIdentifierClient new];
     client.delegate = self;
+    client.isFlashEnable = NO;
     [client showOCRIdentifier:self];
 }
 
-- (void)ocrResult:(OCRResultModel *)result {
+- (void)ocrResult:(MNCOCRIdentifierResult *)result {
      //this function return data result from OCR. 
      //This function return KTP image Path and KTP Data
 }
@@ -105,18 +98,19 @@ In Objective-C
 
 In Swift
 ```swift
-import OCR
+import MNCOCRIdentifier
 
-class ViewController: UIViewController, OCRDelegate {
+class ViewController: UIViewController, MNCOCRIdentifierDelegate {
 
    override func viewDidLoad() {
         .......
-        let client = OCRClient()
+        let client = MNCOCRIdentifierClient()
         client.delegate = self
-        client.showFaceIdentifier(self)
+        client.isFlashEnable = true
+        client.showOCRIdentifier(self)
   }
 
-  func ocrResult(_ result: OCRResultModel!) {
+  func ocrResult(_ result: MNCOCRIdentifierResult?) {
          //this function return data result from OCR. 
          //This function return KTP image Path and KTP Data
   }
