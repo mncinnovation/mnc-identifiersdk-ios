@@ -36,7 +36,9 @@ In Objective-C
     .......
     MNCFaceIdentifierClient client = [MNCFaceIdentifierClient new];
     client.delegate = self;
-    
+}
+
+- (void)buttonTapped:(UIButton *)sender {
     [client showFaceIdentifier:self];
 }
 
@@ -59,6 +61,10 @@ class ViewController: UIViewController, MNCFaceIdentifierDelegate {
         let client = MNCFaceIdentifierClient()
         client.delegate = self
         
+
+  }
+  
+  @IBAction func buttonTapped(_ sender: UIButton) {
         client.showFaceIdentifier(self)
   }
 
@@ -85,6 +91,9 @@ In Objective-C
     MNCOCRIdentifierClient *client = [MNCOCRIdentifierClient new];
     client.delegate = self;
     client.isFlashEnable = NO;
+}
+
+- (void)buttonTapped:(UIButton *)sender {
     [client showOCRIdentifier:self];
 }
 
@@ -107,6 +116,9 @@ class ViewController: UIViewController, MNCOCRIdentifierDelegate {
         let client = MNCOCRIdentifierClient()
         client.delegate = self
         client.isFlashEnable = true
+  }
+  
+  @IBAction func buttonTapped(_ sender: UIButton) {
         client.showOCRIdentifier(self)
   }
 
