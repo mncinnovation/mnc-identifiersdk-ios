@@ -70,11 +70,15 @@
 		</data>
 		<key>Headers/MNCFaceIdentifierDelegate.h</key>
 		<data>
-		ywrJpQMzOvw8oleI+Zo0PDL38Ek=
+		800/Fw49KF9XK3FjaWrFCwGr6bs=
 		</data>
 		<key>Headers/MNCFaceIdentifierResult.h</key>
 		<data>
-		ofAZ6bEwkp6ma/splETYRubyLVM=
+		0Dz9sGjFoTWfOdnH+rzJ3uFwSxU=
+		</data>
+		<key>Headers/MOIFaceModel.h</key>
+		<data>
+		ldtJljnZ6O1NK6EXad507qrX0IU=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -203,14 +207,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LGMF2rUQ89BF0jQ5tLBLGq7CP6baNdjZTPqU0oU5vWE=
+			LRzVnbgkCyy9zEeUvstM7qRkVNYYNRhCXjQqgfYUCyE=
 			</data>
 		</dict>
 		<key>Headers/MNCFaceIdentifierResult.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c6N76w+wsb7rC41aiTPY53ZcXYi7kV9NoAxEREdDPqM=
+			VUvkhpPxvWmVk5+p0b1uP5mAG6gplgI8A1mfp4U3Yic=
+			</data>
+		</dict>
+		<key>Headers/MOIFaceModel.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MjW1l2223D1Z0TPDIM5Jvr3sq+i+MPk7pMRVoyYYJVI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -11,7 +11,7 @@
 
 @protocol MNCFaceIdentifierDelegate <NSObject>
 
-- (void)faceIdentifierResult:(MNCFaceIdentifierResult *)result;
+- (void)faceIdentifierResult:(nonnull MNCFaceIdentifierResult *)result;
 
 @end
 
