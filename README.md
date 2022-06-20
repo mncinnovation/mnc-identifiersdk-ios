@@ -1,8 +1,8 @@
 # MNC Identifier SDK for iOS
 
 MNC Identifier is a service to identify, and verify consumer with AI in it. This SDK has 2 main features
-- Face Identifier (1.0.1) (for face identification)
-- OCR Identifier (1.0.1) (for optical character recognition)
+- Face Identifier (1.0.3) (for face identification)
+- OCR Identifier (1.0.3) (for optical character recognition)
 
 ![Alt Text](https://i.imgur.com/9oexWKl.gif)
 
@@ -11,11 +11,11 @@ add this to your podfile
 
 ```ruby
 #This is for Face Identifier
- pod 'MNCIdentifier/Face', '1.0.1'
+ pod 'MNCIdentifier/Face', '1.0.3'
  pod 'GoogleMLKit/FaceDetection', '2.3.0'
 
 #This is for OCR Identifier
- pod 'MNCIdentifier/OCR', '1.0.1'
+ pod 'MNCIdentifier/OCR', '1.0.3'
  pod 'GoogleMLKit/TextRecognition', '2.3.0'
  pod 'GoogleMLKit/ObjectDetection', '2.3.0'
 
