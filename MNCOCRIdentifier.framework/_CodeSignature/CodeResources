@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		VFubv4eQjslmGOKUjXznqecEB5M=
+		oDrwC1KUjhxXgCmeIcbbqTZP4J0=
 		</data>
 		<key>CommonText.json</key>
 		<data>
@@ -34,11 +34,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		iCgo4jmCT+MGP5aH3IhZCYcNgcE=
+		tvTuz1Dyud8f2WNx3HQw/dWmlKc=
 		</data>
 		<key>LatinOCRResources.bundle/Info.plist</key>
 		<data>
-		Mz8pMQulrB3/DfZEa56hVPIqmA8=
+		nFivoHG8XH9deIp+eqOFyh8Xujs=
+		</data>
+		<key>LatinOCRResources.bundle/_CodeSignature/CodeDirectory</key>
+		<data>
+		RiaBpaDAiR1gd1FWknw5T/UwYQM=
+		</data>
+		<key>LatinOCRResources.bundle/_CodeSignature/CodeRequirements</key>
+		<data>
+		OnX22wWFKRSOFN1+obRynMCeyXM=
+		</data>
+		<key>LatinOCRResources.bundle/_CodeSignature/CodeRequirements-1</key>
+		<data>
+		ndYwVXtKy2x2XnDao2db3xwksIM=
+		</data>
+		<key>LatinOCRResources.bundle/_CodeSignature/CodeResources</key>
+		<data>
+		wAcvRDpr4WwSmhX9K6fHkl08qbg=
+		</data>
+		<key>LatinOCRResources.bundle/_CodeSignature/CodeSignature</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
 		<data>
@@ -74,7 +94,27 @@
 		</data>
 		<key>MLKitObjectDetectionCommonResources.bundle/Info.plist</key>
 		<data>
-		ocjWRw7/e7/I/Eez4aysba1M3nU=
+		U/vIuGI8fQqznmGi3HKYh6ioei8=
+		</data>
+		<key>MLKitObjectDetectionCommonResources.bundle/_CodeSignature/CodeDirectory</key>
+		<data>
+		g8dqB0N1T5ytJNcI99upor6W/YE=
+		</data>
+		<key>MLKitObjectDetectionCommonResources.bundle/_CodeSignature/CodeRequirements</key>
+		<data>
+		OnX22wWFKRSOFN1+obRynMCeyXM=
+		</data>
+		<key>MLKitObjectDetectionCommonResources.bundle/_CodeSignature/CodeRequirements-1</key>
+		<data>
+		CMDDEnoTim8WLORia6sW6QTv/vw=
+		</data>
+		<key>MLKitObjectDetectionCommonResources.bundle/_CodeSignature/CodeResources</key>
+		<data>
+		v/scRL/u1ILQbjj+DIQdJw7q/zM=
+		</data>
+		<key>MLKitObjectDetectionCommonResources.bundle/_CodeSignature/CodeSignature</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
 		<key>MLKitObjectDetectionCommonResources.bundle/mobile_object_localizer_3_1_anchors.pb</key>
 		<data>
@@ -90,7 +130,27 @@
 		</data>
 		<key>MLKitObjectDetectionResources.bundle/Info.plist</key>
 		<data>
-		e6lgYJjyqZA5koSr58b3G6CiZ8s=
+		MXoVczPYNHvKzLERz6VYvepvGKw=
+		</data>
+		<key>MLKitObjectDetectionResources.bundle/_CodeSignature/CodeDirectory</key>
+		<data>
+		xRvs1bpcvV+2HuHJb7r33sd9rro=
+		</data>
+		<key>MLKitObjectDetectionResources.bundle/_CodeSignature/CodeRequirements</key>
+		<data>
+		OnX22wWFKRSOFN1+obRynMCeyXM=
+		</data>
+		<key>MLKitObjectDetectionResources.bundle/_CodeSignature/CodeRequirements-1</key>
+		<data>
+		SL1xNnSULmcU2kan8yiGGttggvI=
+		</data>
+		<key>MLKitObjectDetectionResources.bundle/_CodeSignature/CodeResources</key>
+		<data>
+		Ov4bcA2xSrmDtLU1p+NN5+quO5k=
+		</data>
+		<key>MLKitObjectDetectionResources.bundle/_CodeSignature/CodeSignature</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
 		<key>MLKitObjectDetectionResources.bundle/mobile_object_classifier_v0_2_3_with_metadata.tflite</key>
 		<data>
@@ -107,7 +167,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ENMvu05ETJGcdRKmdk5zzpBytcGp0GmeFwRiSqcqngk=
+			T5h4MmkwCJuVzkNrf8nRJK1Lyg2iQJu50w/ex/NJrBU=
 			</data>
 		</dict>
 		<key>CommonText.json</key>
@@ -156,7 +216,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AXPG7leyS8tgun5MfaP/XqmbQEK/DGd3RyZPgkHqj9Y=
+			7lzg2iPK6JiKDp5qG/QUCRmCMPEz3jc4mLjZFnhs+00=
+			</data>
+		</dict>
+		<key>LatinOCRResources.bundle/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			z6Vo0Elj/mLpQJOSyTOwZSUVlu6cs7+ql2XwZUycq6A=
+			</data>
+		</dict>
+		<key>LatinOCRResources.bundle/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
+			</data>
+		</dict>
+		<key>LatinOCRResources.bundle/_CodeSignature/CodeRequirements-1</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QvggsgVqIUY06/JABuFUjyHz/XMlTKKigOjubl4UgaA=
+			</data>
+		</dict>
+		<key>LatinOCRResources.bundle/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			invF7KpCHCac7fmWM4LSKwZVfsuUXzSgywbk4dGvZ3c=
+			</data>
+		</dict>
+		<key>LatinOCRResources.bundle/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 			</data>
 		</dict>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
@@ -219,7 +314,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cxwy9q2NX7+B7gzp6hP0vVTsDLfgO4UnvqxDBy/KwFM=
+			N62xD1Q5wIs7Ftqthvt2KkzgDNFC2a1029Iz0Qr3xu4=
+			</data>
+		</dict>
+		<key>MLKitObjectDetectionCommonResources.bundle/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/WOQDBWXP6mQgRdLESZqehFO8AvbYgJdA1GnBJ1gDYs=
+			</data>
+		</dict>
+		<key>MLKitObjectDetectionCommonResources.bundle/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
+			</data>
+		</dict>
+		<key>MLKitObjectDetectionCommonResources.bundle/_CodeSignature/CodeRequirements-1</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			T4X1gVhO6hbVx9NdZn+uw6XNS+eTGKeW+CGrQqQRTic=
+			</data>
+		</dict>
+		<key>MLKitObjectDetectionCommonResources.bundle/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pwdPqpcdK7TCp9SReO2Kxifjy1s1GVHn3fkBeP8YdnU=
+			</data>
+		</dict>
+		<key>MLKitObjectDetectionCommonResources.bundle/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 			</data>
 		</dict>
 		<key>MLKitObjectDetectionCommonResources.bundle/mobile_object_localizer_3_1_anchors.pb</key>
@@ -247,7 +377,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ejd7vl0LTVR7WMovkcMohbGVPyk9HdhHop052dkqQVg=
+			Ai6UlWJPFtB2VQgQo1N28BN+ec8798+XNbIyQVU40mk=
+			</data>
+		</dict>
+		<key>MLKitObjectDetectionResources.bundle/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1tD9NAmG3V0Q+rCKkXwdBkPAAwt7rKVjW5T6vDNCY5A=
+			</data>
+		</dict>
+		<key>MLKitObjectDetectionResources.bundle/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
+			</data>
+		</dict>
+		<key>MLKitObjectDetectionResources.bundle/_CodeSignature/CodeRequirements-1</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			numCHFyYHlRbL3DAvdVIZ+GAJHtl5xazh4zquriZGXM=
+			</data>
+		</dict>
+		<key>MLKitObjectDetectionResources.bundle/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			469bWAo4cZroXcrBhAhTDXMbJclJN5rHS8ogfnOAMS0=
+			</data>
+		</dict>
+		<key>MLKitObjectDetectionResources.bundle/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 			</data>
 		</dict>
 		<key>MLKitObjectDetectionResources.bundle/mobile_object_classifier_v0_2_3_with_metadata.tflite</key>
