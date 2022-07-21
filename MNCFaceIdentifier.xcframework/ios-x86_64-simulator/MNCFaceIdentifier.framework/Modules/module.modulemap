@@ -1,0 +1,6 @@
+framework module MNCFaceIdentifier {
+  umbrella header "MNCFaceIdentifier.h"
+
+  export *
+  module * { export * }
+}
