@@ -1,6 +1,0 @@
-framework module MNCOCRIdentifier {
-  umbrella header "MNCOCRIdentifier.h"
-
-  export *
-  module * { export * }
-}
