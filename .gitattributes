@@ -2,3 +2,5 @@ MNCFaceIdentifier.xcframework/ios-arm64/MNCFaceIdentifier.framework/MNCFaceIdent
 MNCFaceIdentifier.xcframework/ios-x86_64-simulator/MNCFaceIdentifier.framework/MNCFaceIdentifier filter=lfs diff=lfs merge=lfs -text
 MNCOCRIdentifier.xcframework/ios-x86_64-simulator/MNCOCRIdentifier.framework/MNCOCRIdentifier filter=lfs diff=lfs merge=lfs -text
 MNCOCRIdentifier.xcframework/ios-arm64/MNCOCRIdentifier.framework/MNCOCRIdentifier filter=lfs diff=lfs merge=lfs -text
+MNCOCRIdentifier.xcframework/MNCOCRIdentifier filter=lfs diff=lfs merge=lfs -text
+MNCFaceIdentifier.xcframework/MNCFaceIdentifier filter=lfs diff=lfs merge=lfs -text
