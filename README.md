@@ -1,8 +1,8 @@
 # MNC Identifier SDK for iOS
 
 MNC Identifier is a service to identify, and verify consumer with AI in it. This SDK has 2 main features
-- Face Identifier (0.1.4)
-- OCR Identifier (*Under development*)
+- Face Identifier (1.1.2) (for face identification)
+- OCR Identifier (1.1.2) (for optical character recognition)
 
 ![Alt Text](https://i.imgur.com/9oexWKl.gif)
 
@@ -11,39 +11,40 @@ add this to your podfile
 
 ```ruby
 #This is for Face Identifier
- pod 'MNCIdentifier/Face', '0.1.4'
- pod 'GoogleMLKit/FaceDetection'
+ pod 'MNCIdentifier/Face', '1.1.2'
+ pod 'GoogleMLKit/FaceDetection', '2.3.0'
 
 #This is for OCR Identifier
-#Coming Soon
+ pod 'MNCIdentifier/OCR', '1.1.2'
+ pod 'GoogleMLKit/TextRecognition', '2.3.0'
+ pod 'GoogleMLKit/ObjectDetection', '2.3.0'
+
 ```
 
 ## Face Identifier Usage
 In Objective-C
 ```objectivec
-#import <Face/FaceClient.h>
-#import <Face/FaceSettingModel.h>
-#import <Face/FaceIdentifierDelegate.h>
+#import <MNCFaceIdentifier/MNCFaceIdentifierClient.h>
+#import <MNCFaceIdentifier/MNCFaceIdentifierDelegate.h>
 
-@interface ViewController() <FaceIdentifierDelegate>
+@interface ViewController() <MNCFaceIdentifierDelegate>
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     .......
-    FaceClient client = [FaceClient new];
-    FaceSettingModel *setting = [FaceSettingModel new];
-    setting.isDebugMode = NO;
-    
+    MNCFaceIdentifierClient client = [MNCFaceIdentifierClient new];
     client.delegate = self;
-    client.setting = setting;
+}
+
+- (void)buttonTapped:(UIButton *)sender {
     [client showFaceIdentifier:self];
 }
 
-//Liveness result when al
-- (void)faceIdentifierResult:(FaceResultModel *)result {
-
+- (void)faceIdentifierResult:(MNCFaceIdentifierResult *)result {
+    //this function return data result from Face Identifier
+    //this function return captured image from process face identifier with type data UIImage
 }
 
 @end
@@ -51,23 +52,81 @@ In Objective-C
 
 In Swift
 ```swift
-import Face
+import MNCFaceIdentifier
 
-class ViewController: FaceIdentifierDelegate {
+class ViewController: UIViewController, MNCFaceIdentifierDelegate {
 
    override func viewDidLoad() {
         .......
-        let client = FaceClient()
-        let setting = FaceSettingModel()
-        setting.isDebugMode = false
-        
+        let client = MNCFaceIdentifierClient()
         client.delegate = self
-        client.setting = setting
         
+
+  }
+  
+  @IBAction func buttonTapped(_ sender: UIButton) {
         client.showFaceIdentifier(self)
   }
 
-  func faceIdentifierResult(_ result: FaceResultModel!) {
+  func faceIdentifierResult(_ result: MNCFaceIdentifierResult!) {
+        //this function return data result from Face Identifier
+        //this function return captured image from process face identifier with type data UIImage
+  }
+}
+```
+
+## OCR Usage
+In Objective-C
+```objectivec
+#import <MNCOCRIdentifier/MNCOCRIdentifierClient.h>
+#import <MNCOCRIdentifier/MNCOCRIdentifierDelegate.h>
+
+@interface ViewController() <MNCOCRIdentifierDelegate>
+@end
+
+@implementation ViewController
+
+- (void)viewDidLoad {
+    .......
+    MNCOCRIdentifierClient *client = [MNCOCRIdentifierClient new];
+    client.delegate = self;
+    client.isFlashEnable = NO;
+    client.isCameraOnly = NO; //this properties for MNCOCRIdentifer with features camera only
+}
+
+- (void)buttonTapped:(UIButton *)sender {
+    [client showOCRIdentifier:self];
+}
+
+- (void)ocrResult:(MNCOCRIdentifierResult *)result {
+     //this function return data result from OCR. 
+     //This function return KTP image Path and KTP Data
+}
+
+@end
+```
+
+In Swift
+```swift
+import MNCOCRIdentifier
+
+class ViewController: UIViewController, MNCOCRIdentifierDelegate {
+
+   override func viewDidLoad() {
+        .......
+        let client = MNCOCRIdentifierClient()
+        client.delegate = self
+        client.isFlashEnable = true
+        client.isCameraOnly = true //this properties for MNCOCRIdentifer with features camera only
+  }
+  
+  @IBAction func buttonTapped(_ sender: UIButton) {
+        client.showOCRIdentifier(self)
+  }
+
+  func ocrResult(_ result: MNCOCRIdentifierResult?) {
+         //this function return data result from OCR. 
+         //This function return KTP image Path and KTP Data
   }
 }
 ```
