@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "MNCIdentifier"
-  spec.version      = "1.1.6"
+  spec.version      = "1.1.7"
   spec.summary      = "iOS SDK platforms for KYC verification services."
   
   spec.description  = "This KYC SDK involves steps to establish customer identity thorough liveness detection."
