@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		C6KjUoOPav7spEs+dc+Gxvks/uw=
+		c+V3+B+OC9UyHw2OoL2lbQAYAko=
 		</data>
 		<key>CommonText.json</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		AwLVv0Q11v9M+eeIfW/fOPGb+Ik=
+		4Kc6ksdNnqbqqFrtG+eYu6OmN/c=
 		</data>
 		<key>LatinOCRResources.bundle/Info.plist</key>
 		<data>
-		8t0p/Lk1pLipk3a58x/6SpK9lgk=
+		PiT7ZPQGYhasTU794NGAk3cZVts=
 		</data>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>MLKitObjectDetectionCommonResources.bundle/Info.plist</key>
 		<data>
-		I69Jclit2ERwUHNK4KUAjna06rI=
+		kikxbacXbbuwjZ8dSyUrdAOq/IY=
 		</data>
 		<key>MLKitObjectDetectionCommonResources.bundle/mobile_object_localizer_3_1_anchors.pb</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>MLKitObjectDetectionResources.bundle/Info.plist</key>
 		<data>
-		QsDlFOmHD5zWXIKKwuA6aHazsGo=
+		wHliieNfONsMCv1RtV0GhaqLWN8=
 		</data>
 		<key>MLKitObjectDetectionResources.bundle/mobile_object_classifier_v0_2_3_with_metadata.tflite</key>
 		<data>
@@ -107,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yqh9iO4frXhFa0+EZ74Et+3PsFIiI/hB7GPBAoCycqE=
+			IxsFQMmeAFOaKZc8cY707pBiJqTIsuQkH3oLmJrc9ow=
 			</data>
 		</dict>
 		<key>CommonText.json</key>
@@ -156,7 +156,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1Nmdisqq/DM41rviCPe0hRcTj4u8oObqjBJoEwvkLNM=
+			m8Iz1THYIk2IW5FBbULoEuZCRhNKrVFVzPBzpyjGXn8=
 			</data>
 		</dict>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
@@ -219,7 +219,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dej1qi//w2L6Mr7QmsgtHMnocDFOvRzrZK4pjUxUV3Q=
+			8ZqwpJiZspR8ZUwj9mheXH2/Nzuhjn87iiOJMb74JyQ=
 			</data>
 		</dict>
 		<key>MLKitObjectDetectionCommonResources.bundle/mobile_object_localizer_3_1_anchors.pb</key>
@@ -247,7 +247,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3eGOrNwOlhOBoPpoyq8J1dXzggQwtR4wfEX9DIqTN04=
+			u/g78dALSLIrRPuuqpQabHtBszkatnZbQrLpMeAIKfc=
 			</data>
 		</dict>
 		<key>MLKitObjectDetectionResources.bundle/mobile_object_classifier_v0_2_3_with_metadata.tflite</key>
