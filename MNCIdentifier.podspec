@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   end
 
   spec.subspec 'OCR' do |ocr|
-    ocr.vendored_frameworks = "MNCOCRIdentifier.framework"
+    ocr.vendored_frameworks = "MNCOCRIdentifier.xcframework"
     ocr.dependency 'GoogleMLKit/TextRecognition', '4.0.0'
     ocr.dependency 'GoogleMLKit/ObjectDetection', '4.0.0'
   end
