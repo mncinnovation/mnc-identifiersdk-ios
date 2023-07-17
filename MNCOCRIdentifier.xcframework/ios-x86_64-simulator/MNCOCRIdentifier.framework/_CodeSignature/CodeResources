@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		5ZA6GGcItsAYy4QVrtc1UUu9A/4=
+		luw5ajU8Z2n/Pqzi+Zj2zoDkMhM=
 		</data>
 		<key>CommonText.json</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/MNCOCRIdentifierClient.h</key>
 		<data>
-		/W2qavjmsCuOGW8Rqtv7wOtauf0=
+		keZRQ/d+lp8zippo9e9vK3hELAY=
 		</data>
 		<key>Headers/MNCOCRIdentifierDelegate.h</key>
 		<data>
@@ -30,15 +30,15 @@
 		</data>
 		<key>Headers/MOIKTPDataModel.h</key>
 		<data>
-		7ckIJvUs8dn44Dyia3SRkbNKWNY=
+		fQprsmCPQ35G5ZrCeB8CxV1SDMA=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+JniDGnBCIpjoIanbPTpKKEblC0=
+		PGaP6W3kKwRBqRYRlHhz+Qs5/nc=
 		</data>
 		<key>LatinOCRResources.bundle/Info.plist</key>
 		<data>
-		aeSagbOjz8LBx3P4kaPiFr5mpR8=
+		/A/OcfRQcM7QV3xHGRuflNkKb3U=
 		</data>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>MLKitObjectDetectionCommonResources.bundle/Info.plist</key>
 		<data>
-		r/iE/DhysUDwkShKPKNglKvqjQI=
+		oCcgGS93dl2bN/kqor6U3zU0qO8=
 		</data>
 		<key>MLKitObjectDetectionCommonResources.bundle/mobile_object_localizer_3_1_anchors.pb</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>MLKitObjectDetectionResources.bundle/Info.plist</key>
 		<data>
-		LlH8P0F1NKML6ZdIldnToZ0Tw/M=
+		/TZQrJO3xvGdQD7o+b5MMDHh7gM=
 		</data>
 		<key>MLKitObjectDetectionResources.bundle/mobile_object_classifier_v0_2_3_with_metadata.tflite</key>
 		<data>
@@ -107,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tBnIcuHyILxSMwLCcjpCtYXPETnu2kezJimttEAPHHc=
+			YDwQtwU27vBQrgfFzCYBnG4zo0NxOC/M27D/uvfLmvU=
 			</data>
 		</dict>
 		<key>CommonText.json</key>
@@ -128,7 +128,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			w3R1+X3fJxS10uNyebSyyvoZ+/XnA9jqgmbdWaeQznk=
+			rU9TXVLYu+kYU738o86NSvFUiCYvZqmNE3akO5K61r0=
 			</data>
 		</dict>
 		<key>Headers/MNCOCRIdentifierDelegate.h</key>
@@ -149,14 +149,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T1Zi8q0nM5vn+12+qIE4/BfhY43i60KJuFXk5nr/zuM=
+			AZnFY+K3ynQuMBp8J2RRix52A7dJ+1PCA4YK7vwSSvM=
 			</data>
 		</dict>
 		<key>LatinOCRResources.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HqnNsvkhlV1IOrxmnosAxrnN6PFZ/zS0efg0AetWCpg=
+			UjMoeoEEDGpTf/pJJtHRvf0QdkplLz5B0qc/9fnGzhQ=
 			</data>
 		</dict>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
@@ -219,7 +219,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ms2jSCNMEN9De++15R35Imx/qo63m9WkjKcEvxtMYdY=
+			hpKJv182uSYDCqLxxVoHjMzn/2IUVhxSt8BZjmEZ2xc=
 			</data>
 		</dict>
 		<key>MLKitObjectDetectionCommonResources.bundle/mobile_object_localizer_3_1_anchors.pb</key>
@@ -247,7 +247,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hZ7UjNI9hHULo2e5WKWUSKAV+Bk4Yl6ZazwHQNGiNDU=
+			w+xhgrOZy9BHVyMyaXCCmg+cUbqsBW2aQkUCI7/xxq0=
 			</data>
 		</dict>
 		<key>MLKitObjectDetectionResources.bundle/mobile_object_classifier_v0_2_3_with_metadata.tflite</key>

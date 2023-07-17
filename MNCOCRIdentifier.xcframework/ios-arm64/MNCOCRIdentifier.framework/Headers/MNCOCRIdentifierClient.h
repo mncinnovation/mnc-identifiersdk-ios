@@ -15,7 +15,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, weak) id <MNCOCRIdentifierDelegate> delegate;
 @property (nonatomic) BOOL isFlashEnable;
-@property (nonatomic) BOOL isCameraOnly;
 
 - (void)showOCRIdentifier:(UIViewController *)parent;
 
