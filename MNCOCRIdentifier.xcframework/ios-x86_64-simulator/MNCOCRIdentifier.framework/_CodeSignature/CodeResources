@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		luw5ajU8Z2n/Pqzi+Zj2zoDkMhM=
+		5ZA6GGcItsAYy4QVrtc1UUu9A/4=
 		</data>
 		<key>CommonText.json</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/MNCOCRIdentifierClient.h</key>
 		<data>
-		keZRQ/d+lp8zippo9e9vK3hELAY=
+		/W2qavjmsCuOGW8Rqtv7wOtauf0=
 		</data>
 		<key>Headers/MNCOCRIdentifierDelegate.h</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		PGaP6W3kKwRBqRYRlHhz+Qs5/nc=
+		+JniDGnBCIpjoIanbPTpKKEblC0=
 		</data>
 		<key>LatinOCRResources.bundle/Info.plist</key>
 		<data>
-		/A/OcfRQcM7QV3xHGRuflNkKb3U=
+		aeSagbOjz8LBx3P4kaPiFr5mpR8=
 		</data>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>MLKitObjectDetectionCommonResources.bundle/Info.plist</key>
 		<data>
-		oCcgGS93dl2bN/kqor6U3zU0qO8=
+		r/iE/DhysUDwkShKPKNglKvqjQI=
 		</data>
 		<key>MLKitObjectDetectionCommonResources.bundle/mobile_object_localizer_3_1_anchors.pb</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>MLKitObjectDetectionResources.bundle/Info.plist</key>
 		<data>
-		/TZQrJO3xvGdQD7o+b5MMDHh7gM=
+		LlH8P0F1NKML6ZdIldnToZ0Tw/M=
 		</data>
 		<key>MLKitObjectDetectionResources.bundle/mobile_object_classifier_v0_2_3_with_metadata.tflite</key>
 		<data>
@@ -107,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YDwQtwU27vBQrgfFzCYBnG4zo0NxOC/M27D/uvfLmvU=
+			tBnIcuHyILxSMwLCcjpCtYXPETnu2kezJimttEAPHHc=
 			</data>
 		</dict>
 		<key>CommonText.json</key>
@@ -128,7 +128,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rU9TXVLYu+kYU738o86NSvFUiCYvZqmNE3akO5K61r0=
+			w3R1+X3fJxS10uNyebSyyvoZ+/XnA9jqgmbdWaeQznk=
 			</data>
 		</dict>
 		<key>Headers/MNCOCRIdentifierDelegate.h</key>
@@ -156,7 +156,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UjMoeoEEDGpTf/pJJtHRvf0QdkplLz5B0qc/9fnGzhQ=
+			HqnNsvkhlV1IOrxmnosAxrnN6PFZ/zS0efg0AetWCpg=
 			</data>
 		</dict>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
@@ -219,7 +219,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hpKJv182uSYDCqLxxVoHjMzn/2IUVhxSt8BZjmEZ2xc=
+			ms2jSCNMEN9De++15R35Imx/qo63m9WkjKcEvxtMYdY=
 			</data>
 		</dict>
 		<key>MLKitObjectDetectionCommonResources.bundle/mobile_object_localizer_3_1_anchors.pb</key>
@@ -247,7 +247,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			w+xhgrOZy9BHVyMyaXCCmg+cUbqsBW2aQkUCI7/xxq0=
+			hZ7UjNI9hHULo2e5WKWUSKAV+Bk4Yl6ZazwHQNGiNDU=
 			</data>
 		</dict>
 		<key>MLKitObjectDetectionResources.bundle/mobile_object_classifier_v0_2_3_with_metadata.tflite</key>
