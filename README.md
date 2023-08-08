@@ -1,6 +1,7 @@
 # MNC Identifier SDK for iOS
 
-MNC Identifier is a service to identify, and verify consumer with AI in it. This SDK has 2 main features
+MNC Identifier is a service to identify and verify consumer with AI in 
+it. This SDK has 2 main features
 
 - Face Identifier (1.1.10) (for face identification)
 - OCR Identifier (1.1.10) (for optical character recognition)
