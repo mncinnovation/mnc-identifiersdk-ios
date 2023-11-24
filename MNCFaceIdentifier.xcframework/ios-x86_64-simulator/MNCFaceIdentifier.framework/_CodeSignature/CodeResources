@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		VVMOx0AE3jsIR2vpb8/b2L+mTvk=
+		LDT596ANNepBTmGb2s2ZRb4wcw8=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<data>
@@ -60,13 +60,17 @@
 		<data>
 		RxtbTN3LjpFChp3tmniX3KD+dsE=
 		</data>
+		<key>Headers/MFIMode.h</key>
+		<data>
+		7uEnax0pQ0aTIxrCWu/hw3QBtoA=
+		</data>
 		<key>Headers/MNCFaceIdentifier.h</key>
 		<data>
 		EBRsm+QsONmw0yGcY3aHj1yAnWs=
 		</data>
 		<key>Headers/MNCFaceIdentifierClient.h</key>
 		<data>
-		Hw6X4IRFLWHzZU9k3fHuKzEve90=
+		0F5Xcnk/ux6b3XMrmGDrBR7th+E=
 		</data>
 		<key>Headers/MNCFaceIdentifierDelegate.h</key>
 		<data>
@@ -78,7 +82,7 @@
 		</data>
 		<key>Headers/MOIFaceModel.h</key>
 		<data>
-		ldtJljnZ6O1NK6EXad507qrX0IU=
+		cu1doq248z4FrKGZLH6X/H8on4w=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -95,7 +99,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nfghRnBTHXRB4Cn9S64sVKz5malkduoZ5wIePReIPjg=
+			8O/NTbkR1/po72ML5F2Ei2rizJLS2CAUgeZ3fHBBY9Q=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
@@ -189,6 +193,13 @@
 			2pAlL0mzu5QuX4gBgKFFYfZpKW5/s+3s3quqi2u3gio=
 			</data>
 		</dict>
+		<key>Headers/MFIMode.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3/flog7R4uoqwZfUdHpwlZ/dUYvxHYNWIvxlwVJ+6Bs=
+			</data>
+		</dict>
 		<key>Headers/MNCFaceIdentifier.h</key>
 		<dict>
 			<key>hash2</key>
@@ -200,7 +211,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yftXAwDO/2NHdQXXS9S8e5s+QTjQImvqoPeyP+31yaU=
+			b8sCvp65CF4eU+PeX6aoCNSCDg2W94iGbvq9mFXrW28=
 			</data>
 		</dict>
 		<key>Headers/MNCFaceIdentifierDelegate.h</key>
@@ -221,7 +232,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MjW1l2223D1Z0TPDIM5Jvr3sq+i+MPk7pMRVoyYYJVI=
+			sOpXFisBBwBPKLgipf+LrHdCxD3rNpY1eOotyUux8bc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
