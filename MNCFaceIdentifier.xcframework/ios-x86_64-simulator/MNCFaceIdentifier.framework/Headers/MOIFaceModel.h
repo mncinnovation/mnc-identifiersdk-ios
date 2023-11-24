@@ -11,7 +11,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef enum DetectionMode {
     HOLD_STILL,
-    OPEN_MOUTH,
     BLINK,
     SHAKE_HEAD,
     SMILE
