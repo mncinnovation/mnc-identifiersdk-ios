@@ -1,10 +1,10 @@
 # MNC Identifier SDK for iOS
 
-MNC Identifier is a service to identify and verify consumer with AI in 
+MNC Identifier is a service to identify and verify consumer with AI in
 it. This SDK has 2 main features
 
-- Face Identifier (1.1.10) (for face identification)
-- OCR Identifier (1.1.10) (for optical character recognition)
+- Face Identifier (1.1.11) (for face identification)
+- OCR Identifier (1.1.11) (for optical character recognition)
 
 ![Alt Text](https://i.imgur.com/9oexWKl.gif)
 
@@ -14,11 +14,11 @@ add this to your podfile
 
 ```ruby
 #This is for Face Identifier
- pod 'MNCIdentifier/Face', '1.1.10'
+ pod 'MNCIdentifier/Face', '1.1.11'
  pod 'GoogleMLKit/FaceDetection', '4.0.0'
 
 #This is for OCR Identifier
- pod 'MNCIdentifier/OCR', '1.1.10'
+ pod 'MNCIdentifier/OCR', '1.1.11'
  pod 'GoogleMLKit/TextRecognition', '4.0.0'
  pod 'GoogleMLKit/ObjectDetection', '4.0.0'
 
@@ -41,6 +41,10 @@ In Objective-C
     .......
     MNCFaceIdentifierClient client = [MNCFaceIdentifierClient new];
     client.delegate = self;
+
+    // customize detection sequence
+    NSArray<NSNumber *> *steps = @[@(BLINK), @(SMILE), @(HOLD_STILL), @(SHAKE_HEAD)];
+    client.sequenceOfSteps = steps;
 }
 
 - (void)buttonTapped:(UIButton *)sender {
@@ -67,7 +71,14 @@ class ViewController: UIViewController, MNCFaceIdentifierDelegate {
         let client = MNCFaceIdentifierClient()
         client.delegate = self
 
-
+         // cutomize detection sequence
+        let steps: [SequenceStep] = [
+            .BLINK,
+            .SMILE,
+            .HOLD_STILL,
+            .SHAKE_HEAD
+        ]
+        client.sequenceOfSteps = steps.map { NSNumber(value: $0.rawValue) }
   }
 
   @IBAction func buttonTapped(_ sender: UIButton) {
