@@ -1,28 +1,33 @@
 # MNC Identifier SDK for iOS
 
-MNC Identifier is a service to identify, and verify consumer with AI in it. This SDK has 2 main features
-- Face Identifier (1.1.2) (for face identification)
-- OCR Identifier (1.1.2) (for optical character recognition)
+MNC Identifier is a service to identify and verify consumer with AI in 
+it. This SDK has 2 main features
+
+- Face Identifier (1.1.10) (for face identification)
+- OCR Identifier (1.1.10) (for optical character recognition)
 
 ![Alt Text](https://i.imgur.com/9oexWKl.gif)
 
 ## Installation
+
 add this to your podfile
 
 ```ruby
 #This is for Face Identifier
- pod 'MNCIdentifier/Face', '1.1.2'
- pod 'GoogleMLKit/FaceDetection', '2.3.0'
+ pod 'MNCIdentifier/Face', '1.1.10'
+ pod 'GoogleMLKit/FaceDetection', '4.0.0'
 
 #This is for OCR Identifier
- pod 'MNCIdentifier/OCR', '1.1.2'
- pod 'GoogleMLKit/TextRecognition', '2.3.0'
- pod 'GoogleMLKit/ObjectDetection', '2.3.0'
+ pod 'MNCIdentifier/OCR', '1.1.10'
+ pod 'GoogleMLKit/TextRecognition', '4.0.0'
+ pod 'GoogleMLKit/ObjectDetection', '4.0.0'
 
 ```
 
 ## Face Identifier Usage
+
 In Objective-C
+
 ```objectivec
 #import <MNCFaceIdentifier/MNCFaceIdentifierClient.h>
 #import <MNCFaceIdentifier/MNCFaceIdentifierDelegate.h>
@@ -51,6 +56,7 @@ In Objective-C
 ```
 
 In Swift
+
 ```swift
 import MNCFaceIdentifier
 
@@ -60,10 +66,10 @@ class ViewController: UIViewController, MNCFaceIdentifierDelegate {
         .......
         let client = MNCFaceIdentifierClient()
         client.delegate = self
-        
+
 
   }
-  
+
   @IBAction func buttonTapped(_ sender: UIButton) {
         client.showFaceIdentifier(self)
   }
@@ -76,7 +82,9 @@ class ViewController: UIViewController, MNCFaceIdentifierDelegate {
 ```
 
 ## OCR Usage
+
 In Objective-C
+
 ```objectivec
 #import <MNCOCRIdentifier/MNCOCRIdentifierClient.h>
 #import <MNCOCRIdentifier/MNCOCRIdentifierDelegate.h>
@@ -99,7 +107,7 @@ In Objective-C
 }
 
 - (void)ocrResult:(MNCOCRIdentifierResult *)result {
-     //this function return data result from OCR. 
+     //this function return data result from OCR.
      //This function return KTP image Path and KTP Data
 }
 
@@ -107,6 +115,7 @@ In Objective-C
 ```
 
 In Swift
+
 ```swift
 import MNCOCRIdentifier
 
@@ -119,13 +128,13 @@ class ViewController: UIViewController, MNCOCRIdentifierDelegate {
         client.isFlashEnable = true
         client.isCameraOnly = true //this properties for MNCOCRIdentifer with features camera only
   }
-  
+
   @IBAction func buttonTapped(_ sender: UIButton) {
         client.showOCRIdentifier(self)
   }
 
   func ocrResult(_ result: MNCOCRIdentifierResult?) {
-         //this function return data result from OCR. 
+         //this function return data result from OCR.
          //This function return KTP image Path and KTP Data
   }
 }
