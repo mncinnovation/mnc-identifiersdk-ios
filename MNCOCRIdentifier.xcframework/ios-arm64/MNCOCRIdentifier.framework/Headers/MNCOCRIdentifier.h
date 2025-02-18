@@ -2,7 +2,7 @@
 //  MNCOCRIdentifier.h
 //  MNCOCRIdentifier
 //
-//  Created by MCOMM00008 on 30/05/22.
+//  Created by Ari Fajrianda Alfi on 12/02/25.
 //
 
 #import <Foundation/Foundation.h>
@@ -14,6 +14,6 @@ FOUNDATION_EXPORT double MNCOCRIdentifierVersionNumber;
 FOUNDATION_EXPORT const unsigned char MNCOCRIdentifierVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <MNCOCRIdentifier/PublicHeader.h>
+
 #import "MNCOCRIdentifierClient.h"
 #import "MNCOCRIdentifierDelegate.h"
-
