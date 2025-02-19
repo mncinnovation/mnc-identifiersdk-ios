@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "MNCIdentifier"
-  spec.version      = "1.1.11"
+  spec.version      = "1.1.12"
   spec.summary      = "iOS SDK platforms for KYC verification services."
   
   spec.description  = "This KYC SDK involves steps to establish customer identity thorough liveness detection."
@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "Ihksan Sukmawan" => "ihksan.sukmawan@mncgroup.com", "Ari Fajrianda Alfi" => "ari.alfi@mncgroup.com" }
 
   spec.platform     = :ios
-  spec.ios.deployment_target = "11.0"
+  spec.ios.deployment_target = "12.0"
 
   spec.source       = { :git => "https://github.com/mncinnovation/mnc-identifiersdk-ios.git", :tag => "#{spec.version}" }
 
@@ -28,8 +28,8 @@ Pod::Spec.new do |spec|
 
   spec.subspec 'OCR' do |ocr|
     ocr.vendored_frameworks = "MNCOCRIdentifier.xcframework"
-    ocr.dependency 'GoogleMLKit/TextRecognition', '4.0.0'
-    ocr.dependency 'GoogleMLKit/ObjectDetection', '4.0.0'
+    ocr.dependency 'GoogleMLKit/TextRecognition', '6.0.0'
+    ocr.dependency 'GoogleMLKit/ObjectDetection', '6.0.0'
   end
 
   spec.pod_target_xcconfig = {
