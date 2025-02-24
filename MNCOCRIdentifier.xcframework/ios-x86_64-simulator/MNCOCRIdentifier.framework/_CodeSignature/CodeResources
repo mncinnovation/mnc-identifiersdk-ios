@@ -14,7 +14,7 @@
 		</data>
 		<key>FBLPromises_Privacy.bundle/Info.plist</key>
 		<data>
-		IvRRCj8iE/VeEyedvJxr1bhypEM=
+		L0J5FQaEY+Bw/QCWkoXutL1+uB0=
 		</data>
 		<key>FBLPromises_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>GTMSessionFetcher_Core_Privacy.bundle/Info.plist</key>
 		<data>
-		PMopzD1JZjw/9slXGNy2ZyEAxz4=
+		zu1VmRadfPvhIPW5XySaDfbQy6Y=
 		</data>
 		<key>GTMSessionFetcher_Core_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>GoogleDataTransport_Privacy.bundle/Info.plist</key>
 		<data>
-		g3DzQJCxTyPEH3+liLssM6kIpfU=
+		VmGN+k+Pu8D0on8QR+LL2INGFPc=
 		</data>
 		<key>GoogleDataTransport_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>GoogleToolboxForMac_Logger_Privacy.bundle/Info.plist</key>
 		<data>
-		CEIU9YESxvKMA+DEXnj7t3GkPuw=
+		/5WTnqwjzInf0nyXiBiXE3jSL/k=
 		</data>
 		<key>GoogleToolboxForMac_Logger_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>GoogleToolboxForMac_Privacy.bundle/Info.plist</key>
 		<data>
-		KiROJmtor+ni7tsNq4qCFPEQgCA=
+		vsF/iG0zAon5iz2zAcfJAfcoHxU=
 		</data>
 		<key>GoogleToolboxForMac_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>GoogleUtilities_Privacy.bundle/Info.plist</key>
 		<data>
-		Y/rBISbmKumoNOK6nQV8Fngb4gs=
+		llFaqcmkQfxJjwg2RHS9nD+9UO0=
 		</data>
 		<key>GoogleUtilities_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
-		TrRzpkxcmDwPf9xXhrQKnuRceyI=
+		9Dge7JFNlx7Vk430tsjNsK3d0Ng=
 		</data>
 		<key>Headers/MNCOCRIdentifier.h</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>LatinOCRResources.bundle/Info.plist</key>
 		<data>
-		SU235eKz2LyBEGAYCSFDMMTEkCs=
+		pUmWGMLxdx83imlXjyO5+B4Enks=
 		</data>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>MLKitObjectDetectionCommonResources.bundle/Info.plist</key>
 		<data>
-		Ifk52sUS9Rfvu1/XRoV2IB35k+8=
+		IBEo9GSX7v0mBRxisPG89AdAcFA=
 		</data>
 		<key>MLKitObjectDetectionCommonResources.bundle/mobile_object_localizer_3_1_anchors.pb</key>
 		<data>
@@ -138,7 +138,7 @@
 		</data>
 		<key>MLKitObjectDetectionResources.bundle/Info.plist</key>
 		<data>
-		cbm3tjSvDj77um59o8ndOKaA8WA=
+		Z7VfPTlhFFHzg3Mn/oqLSvIWtOs=
 		</data>
 		<key>MLKitObjectDetectionResources.bundle/mobile_object_classifier_v0_2_3_with_metadata.tflite</key>
 		<data>
@@ -150,7 +150,7 @@
 		</data>
 		<key>nanopb_Privacy.bundle/Info.plist</key>
 		<data>
-		vqTkde07nu/6vtSBjbmF05TgF2c=
+		Q3fIDt4ACsDKo8xW+/mkg0xxYw4=
 		</data>
 		<key>nanopb_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -177,7 +177,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6OuownS5qUOwK5x60U0+MCTQum1ih2vb1MUjk8BiAjU=
+			ak7BtiOJuu7Y8hymkHujKs5+8UEMvzYOhprdVu/lSFM=
 			</data>
 		</dict>
 		<key>FBLPromises_Privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -191,7 +191,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nxW4SsFAKQMVfhwTiNs1dsXAnzF8FIsY/7//Om1erSU=
+			HNmaXUHuNHDn5ENhjgLmvwqO6v6NSQ+DDv2VlfyGqXI=
 			</data>
 		</dict>
 		<key>GTMSessionFetcher_Core_Privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -205,7 +205,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q37J3PbdXZIq3tBFD/cMpXcR5vJVOnWEyVKSevEnVDo=
+			aMFxVByXYOoonNYsIvTYJ8gfCnR3ZnmYbWwhG/j6Ruc=
 			</data>
 		</dict>
 		<key>GoogleDataTransport_Privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -219,7 +219,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/BG5zZSqGtwsFelYeQ2i5jor7aiuK81RXcS+eojGL3g=
+			V/5Ihd1YHrXvNrAT7AyZMzSXuJh2eGyfrHiwcSWpZ7U=
 			</data>
 		</dict>
 		<key>GoogleToolboxForMac_Logger_Privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -233,7 +233,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TDUV8isupwWoY+hr+dpfLhpsuCUPdwYw+BIqeQkG+hw=
+			Yn6g19yzhzDz+HKt/Bh8p7fzZV29P1CFdvQTRKHJCYU=
 			</data>
 		</dict>
 		<key>GoogleToolboxForMac_Privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -247,14 +247,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			S0n6crRHqKtCozDe7jByQ4g3z0sAN7g1mIpypk0Md24=
+			0/vBXUrBI0XKrTr2HaN01u4VyCkjEiSyYpAWIotyhGI=
 			</data>
 		</dict>
 		<key>GoogleUtilities_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jxZCM8XSFfsGzrh4STQCHd3X05qJ15Xla6XIMqsPs/c=
+			+Btc+PBDZicS7KnpeFdnJkzxkAJf5720l3cpbAaN5Tw=
 			</data>
 		</dict>
 		<key>Headers/MNCOCRIdentifier.h</key>
@@ -296,7 +296,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TmyI009oyh35KdZgIaoy8wsgsUgh4PIWdXgAvAZwivs=
+			sPZr9yXfGEXFMKHf3oDQw3GdPqZr+p6AXdODfzcYL48=
 			</data>
 		</dict>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
@@ -359,7 +359,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xT2r0TFNGQU/1o9PInsDEXiImVu5D0uu8G+ufHFsEGA=
+			xrxtzGGblSZ8ZaN7HkeUJNZNorACnjCewBkzJfUy/ZU=
 			</data>
 		</dict>
 		<key>MLKitObjectDetectionCommonResources.bundle/mobile_object_localizer_3_1_anchors.pb</key>
@@ -387,7 +387,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			W7ItGwDIZBnKn3JmlQbjvRSG4Pp8IDhgIFf0p8BpSW4=
+			Z1WMPD1U4vP01rzS2q1kv5ua1b85KEenVwr23QXnKa8=
 			</data>
 		</dict>
 		<key>MLKitObjectDetectionResources.bundle/mobile_object_classifier_v0_2_3_with_metadata.tflite</key>
@@ -408,7 +408,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bUjZB2Jyczobke6PvglTL281Eg4QQ4vqmFzU/Tzbtls=
+			rVfPa94NhkvfHLYl6gMq9zzXHgrERrq4wVQDPJ6rYVo=
 			</data>
 		</dict>
 		<key>nanopb_Privacy.bundle/PrivacyInfo.xcprivacy</key>
