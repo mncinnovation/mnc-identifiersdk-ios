@@ -12,6 +12,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "Ihksan Sukmawan" => "ihksan.sukmawan@mncgroup.com", "Ari Fajrianda Alfi" => "ari.alfi@mncgroup.com" }
 
   spec.platform     = :ios
+  spec.ios.deployment_target = "15.5"
 
   spec.source       = { :git => "https://github.com/mncinnovation/mnc-identifiersdk-ios.git", :tag => "#{spec.version}" }
 
@@ -21,13 +22,11 @@ Pod::Spec.new do |spec|
 
   spec.subspec 'Face' do |face|
     face.vendored_frameworks = "MNCFaceIdentifier.xcframework"
-    face.ios.deployment_target = "12.0"
     face.dependency 'GoogleMLKit/FaceDetection', '4.0.0'
   end
 
   spec.subspec 'OCR' do |ocr|
     ocr.vendored_frameworks = "MNCOCRIdentifier.xcframework"
-    ocr.ios.deployment_target = "15.5"
     ocr.dependency 'GoogleMLKit/TextRecognition', '7.0.0'
     ocr.dependency 'GoogleMLKit/ObjectDetection', '7.0.0'
   end
